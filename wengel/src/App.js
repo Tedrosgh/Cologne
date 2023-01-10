@@ -1,13 +1,14 @@
 import React, { useState } from "react";
-import { Container } from "@mui/material";
+//import { Container } from "@mui/material";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
 import './App.css';
 
 const App=()=> {
   return (
     <BrowserRouter>
-      <Container maxWidth="lg" className="App">
-        {/* <Navbar /> */}
+       {/* <Container maxWidth="lg" className="App"> */} 
+          <Navbar />  
         {/* <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/auth" exact component={Auth} /> */}
@@ -17,7 +18,7 @@ const App=()=> {
           <Route path="/mezmur/:id" exact component={SingleMezmur}></Route> */}
         {/* </Switch> */}
         <p>Under construction</p>
-      </Container>
+      {/* </Container> */}
     </BrowserRouter>
   );
 };
