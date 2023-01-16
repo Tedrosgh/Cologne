@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Cologne/static/css/main.7cc96652.css",
-    "main.js": "/Cologne/static/js/main.57ad2f03.js",
+    "main.css": "/Cologne/static/css/main.d4ac8370.css",
+    "main.js": "/Cologne/static/js/main.6410ce8c.js",
     "static/js/787.70aa2ae8.chunk.js": "/Cologne/static/js/787.70aa2ae8.chunk.js",
     "static/media/logo.jpg": "/Cologne/static/media/logo.35222f615cdd4c7213c1.jpg",
     "index.html": "/Cologne/index.html",
-    "main.7cc96652.css.map": "/Cologne/static/css/main.7cc96652.css.map",
-    "main.57ad2f03.js.map": "/Cologne/static/js/main.57ad2f03.js.map",
+    "main.d4ac8370.css.map": "/Cologne/static/css/main.d4ac8370.css.map",
+    "main.6410ce8c.js.map": "/Cologne/static/js/main.6410ce8c.js.map",
     "787.70aa2ae8.chunk.js.map": "/Cologne/static/js/787.70aa2ae8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cc96652.css",
-    "static/js/main.57ad2f03.js"
+    "static/css/main.d4ac8370.css",
+    "static/js/main.6410ce8c.js"
   ]
 }
