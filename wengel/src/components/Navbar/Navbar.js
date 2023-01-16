@@ -173,11 +173,20 @@ const Navbar = () => {
 //     </Container>
 return (
   <>
+  <section>
+    <div className="appBar">
+      <div className="appBarTeil">
+      <h5 className="heading">Eritrean Full Gospel church Cologne Germany</h5>
+    <img className="image" src={logo} alt="icon" height="140" />
+    </div>
+      <button className="toolbar">Logout</button>
+    </div>
   <div className="brandContainer">
   {pagesArr.map((page, index)=>{
     return <li key={index} component={Link} to={`/${page}`} >{page}</li>
   })}
   </div>
+  </section>
   </>
   );
 };

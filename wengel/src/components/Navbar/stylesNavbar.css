@@ -5,13 +5,15 @@ import { borderRadius, style } from "@mui/system";
 export default makeStyles((theme) => ({ */
   .appBar {
     border-radius: 15;
-    margin: "30px 0";
-    display: "flex";
-    flex-Direction: "row";
-    justify-Content: "space-between";
-    align-Items: "center";
-    padding: "10px 50px";
-    flex-Grow: 1
+    margin: 30px 0;
+    display: flex;
+    flex-Direction: row;
+    justify-Content: space-between;
+    align-Items: center;
+    padding: 5px 10px;
+    flex-Grow: 1;
+    background-color: white;
+    max-height: 60px;
   }
   .appBarUnten {
     border-Radius: 15;
@@ -24,19 +26,36 @@ export default makeStyles((theme) => ({ */
     padding: "10px 50px";
     flex-Grow: 1
   }
+  .appBarTeil {
+    display: flex;
+    flex-direction: row;
+  }
   .heading {
-    color: "rgba(0,183,255, 1)";
-    text-Decoration: "none";
-    border: "1px solid rgba(0,183,255, 1)";
-    border-Radius: "5%"
+    color: rgba(0,183,255, 1);
+    text-Decoration: none;
+    border: 1px solid rgba(0,183,255, 1);
+    border-Radius: 50%;
+    max-width: 300px;
+    text-align: center;
+  }
+  @media (max-width: 480px) {
+    .heading {
+      display: none;
+    }
+    
   }
   .image {
-    margin-Left: "15px";
+    margin-Left: 15px;
+    max-height: 60px;
   }
   .toolbar {
-    display: "flex";
-    justify-Content: "flex-end";
-    width: "400px"
+    display: flex;
+    justify-Content: flex-end;
+    padding: 8px 20px;
+    background-color: red;
+    color: aliceblue;
+    font-weight: 700;
+    box-shadow: 5px 5px 5px black;
   }
   .profile {
     display: "flex";
@@ -56,17 +75,42 @@ export default makeStyles((theme) => ({ */
   }
  
   .brandContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-Items: "center";
-    list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-Items: "center";
+      list-style: none;
+      background-color: aliceblue;
+      padding: 10px;
+      border-radius: 4%;
+      color: fuchsia;
+      font-weight: 700;  
+    }
+ 
+    @media (max-width: 1100px) {
+      .brandContainer {   
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-Items: "center";
+      list-style: none;
+      background-color: aliceblue;
+      padding: 10px;
+      border-radius: 0%;
+      color: fuchsia;
+      font-weight: 700;}
+  }
+
+  @media (max-width: 480px) {
+    .brandContainer {   
+    display: none;
     background-color: aliceblue;
     padding: 10px;
-    border-radius: 4%;
+    border-radius: 0%;
     color: fuchsia;
-    font-weight: 700;
-  }
+    font-weight: 700;}
+}
+
   .purple {
     /* color: theme.palette.getContrastText(deepPurple[500]), */
     background-Color: "rgba(0,183,255, 1)";
