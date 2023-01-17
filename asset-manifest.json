@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cologne/static/css/main.d4ac8370.css",
-    "main.js": "/cologne/static/js/main.97924956.js",
-    "static/js/787.70aa2ae8.chunk.js": "/cologne/static/js/787.70aa2ae8.chunk.js",
-    "static/media/logo.jpg": "/cologne/static/media/logo.35222f615cdd4c7213c1.jpg",
-    "index.html": "/cologne/index.html",
-    "main.d4ac8370.css.map": "/cologne/static/css/main.d4ac8370.css.map",
-    "main.97924956.js.map": "/cologne/static/js/main.97924956.js.map",
-    "787.70aa2ae8.chunk.js.map": "/cologne/static/js/787.70aa2ae8.chunk.js.map"
+    "main.css": "/Cologne/static/css/main.d4ac8370.css",
+    "main.js": "/Cologne/static/js/main.6410ce8c.js",
+    "static/js/787.70aa2ae8.chunk.js": "/Cologne/static/js/787.70aa2ae8.chunk.js",
+    "static/media/logo.jpg": "/Cologne/static/media/logo.35222f615cdd4c7213c1.jpg",
+    "index.html": "/Cologne/index.html",
+    "main.d4ac8370.css.map": "/Cologne/static/css/main.d4ac8370.css.map",
+    "main.6410ce8c.js.map": "/Cologne/static/js/main.6410ce8c.js.map",
+    "787.70aa2ae8.chunk.js.map": "/Cologne/static/js/787.70aa2ae8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4ac8370.css",
-    "static/js/main.97924956.js"
+    "static/js/main.6410ce8c.js"
   ]
 }
